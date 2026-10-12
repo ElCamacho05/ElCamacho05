@@ -31,9 +31,18 @@ class JoseCamacho:
 
 | | Proyecto | Qué hace | Resultados clave |
 |:-:|---|---|---|
-| 💊 | **QuiasmaPath**<br><sub>Líder de desarrollo · 2025 – hoy</sub> | Simulador farmacocinético web para la enseñanza de farmacología. Arquitectura de 3 capas, backend propio en Python/JS. | ~1 s de cálculo por fármaco · ~200 estudiantes simultáneos · carga < 5 s en móviles de gama baja |
-| 🎵 | **WaveNotes**<br><sub>Desarrollador único · 2026 – hoy</sub> | Análisis de canciones con IA: separa pistas instrumentales (Hybrid Transformers) y extrae notas musicales. | Canción de 4 min analizada en < 30 s · 400 ms de Python al frontend |
-| 🧾 | **DeepTicket**<br><sub>Líder de equipo (4 devs) · 2025 – 2026</sub> | App móvil de control de gastos: escaneo de tickets con OCR + KNN y recomendaciones personalizadas. | 96 % de precisión en escaneo · dataset sintético de 20k+ registros · entregas ~1 semana antes |
+| 💊 | **QuiasmaPath**<br><sub>Líder de desarrollo · 2025 – hoy</sub> | Simulador farmacocinético web para la enseñanza de farmacología. Arquitectura de 3 capas con backend propio de cálculo concurrente.<br><br>`Python` `JavaScript` `React` `Supabase` `PostgreSQL` `Firebase` | ~1 s de cálculo por fármaco · ~200 estudiantes simultáneos · carga < 5 s en móviles de gama baja |
+| 🎵 | **[WaveNotes](https://github.com/ElCamacho05/WaveNotes)**<br><sub>Desarrollador único · 2026 – hoy</sub> | Análisis de canciones con IA: separa instrumentos con Demucs (Hybrid Transformer) y extrae notas por instrumento (pitch tracking, onsets, chroma). Microservicio de IA + web app Java, ambos en contenedores.<br><br>`PyTorch` `Demucs` `librosa` `FastAPI` `Java Servlets/JSP` `Tomcat` `Maven` `Firebase` `Docker` | Canción de 4 min analizada en < 30 s · 400 ms de Python al frontend |
+| 🧾 | **[DeepTicket](https://github.com/ElCamacho05/DeepTicket)**<br><sub>Líder de equipo (4 devs) · 2025 – 2026</sub> | App Android de control de gastos: escanea tickets con OCR, normaliza productos con fuzzy matching y recomienda con KNN desde una API propia.<br><br>`Kotlin` `Jetpack Compose` `CameraX` `ML Kit` `Hugging Face (Donut)` `scikit-learn` `FastAPI` `Supabase` `Ktor` | 96 % de precisión en escaneo · dataset sintético de 20k+ registros · entregas ~1 semana antes |
+
+### `$ ls ./proyectos --todos`
+
+| | Proyecto | Qué hace | Lo técnico |
+|:-:|---|---|---|
+| 🖥️ | **[Proyecto-SO](https://github.com/ElCamacho05/Proyecto-SO)**<br><sub>Equipo de 5 · 2026</sub> | Simulador de un sistema operativo completo en escritorio: kernel, sistema de archivos con permisos, usuarios, terminal y suite de apps (IDE, explorador, reproductor, juegos, red social).<br><br>`Python` `Tkinter` `Pygame` `Pillow` `sockets` `threading` | Planificador de procesos FIFO, Round Robin y por prioridad · gestión de memoria · cliente-servidor por sockets |
+| 🦠 | **[Virus-Simulator](https://github.com/ElCamacho05/Virus-Simulator)**<br><sub>Proyecto universitario · 2025</sub> | Simulación de propagación epidemiológica entre personas y regiones, visualizada en tiempo real.<br><br>`C` `OpenGL` `GLUT` `Make` | Grafos de contagio con BFS · ruta de contagio más probable · min-heap, hashing · merge/heap/quicksort · librería gráfica propia (`libigl.a`) |
+| 🤖 | **[ToyFactory](https://github.com/ElCamacho05/ToyFactory)**<br><sub>Proyecto universitario · 2025</sub> | Fábrica de juguetes navideña animada: el usuario arma su robot por escenas y luego lo controla en un mapa procedural.<br><br>`C` `OpenGL` `GLUT` `stb_image` | Robot modelado como árbol jerárquico (torso → brazo → mano → herramienta) · escenas en árbol · vista isométrica |
+| ⛅ | **[AnotherWeatherApp](https://github.com/ElCamacho05/AnotherWeatherApp)**<br><sub>Proyecto universitario · 2025</sub> | App Android de clima con ubicaciones guardadas, pronóstico por hora y por día, selección en mapa y publicaciones de la comunidad.<br><br>`Java` `Android SDK` `OpenWeather API` `Firebase Auth/Firestore/Storage` `Google Maps` `Glide` | Integración de API REST externa · geolocalización GPS · login con Google · contenido generado por usuarios |
 
 <img src="./assets/divider.svg" width="100%"/>
 
@@ -41,20 +50,20 @@ class JoseCamacho:
 
 **IA / ML**
 <p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,python&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn&theme=dark" />
 </p>
 
 **Backend & datos**
 <p>
-  <img src="https://skillicons.dev/icons?i=java,c,postgres,supabase,mysql,mongodb,firebase&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=fastapi,java,maven,c,postgres,supabase,mysql,mongodb,firebase&theme=dark" />
 </p>
 
 **Frontend, móvil & sistemas**
 <p>
-  <img src="https://skillicons.dev/icons?i=js,react,html,css,androidstudio,linux,git,arduino&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=js,react,html,css,kotlin,androidstudio,docker,linux,git,arduino&theme=dark" />
 </p>
 
-<sub>Además: REST APIs · arquitectura de software · pruebas de rendimiento y concurrencia · despliegue en la nube · Assembly · microcontroladores</sub>
+<sub>Además: Hugging Face Transformers · Demucs · librosa · Jetpack Compose · OpenGL · REST APIs · arquitectura de software · pruebas de concurrencia · despliegue en la nube · Assembly · microcontroladores</sub>
 
 <img src="./assets/divider.svg" width="100%"/>
 
