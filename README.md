@@ -1,43 +1,73 @@
-<h1 align="center">Hola, soy José Manuel 👋</h1>
-<h3 align="center">Estudiante de Ingeniería Informática | Desarrollador de Software | Especializado en IA y Machine Learning</h3>
+<div align="center">
 
-<p align="center">
-  Apasionado por la creación de soluciones full-stack y arquitecturas de aprendizaje profundo. Actualmente cursando el 9no semestre en la Universidad Veracruzana y construyendo herramientas impulsadas por inteligencia artificial.
+<img src="./assets/header.svg" width="100%" alt="José Manuel Camacho — Software Engineer · AI & Machine Learning"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&pause=1200&color=A78BFA&center=true&vCenter=true&width=620&lines=Construyo+software+que+aprende+%F0%9F%A7%A0;Simulaci%C3%B3n+farmacocin%C3%A9tica+%E2%80%A2+Audio+AI+%E2%80%A2+OCR;Backend+concurrente+%2B+modelos+en+producci%C3%B3n" alt="typing"/>
+
+<a href="https://www.linkedin.com/in/jose-camacho05"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=22d3ee" /></a>
+<a href="mailto:camachocastelanjm@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=f472b6" /></a>
+<img src="https://img.shields.io/badge/Veracruz,_MX-0d1117?style=for-the-badge&logo=googlemaps&logoColor=34d399" />
+<img src="https://img.shields.io/badge/Open_to-internships_%26_ML_roles-0d1117?style=for-the-badge&labelColor=a78bfa&color=0d1117" />
+
+</div>
+
+### `$ cat about.py`
+
+```python
+class JoseCamacho:
+    role       = "Ingeniero Informático · AI/ML & Full-Stack"
+    education  = "Universidad Veracruzana · 9º semestre · promedio 9.5 · egreso 2027"
+    focus      = ["Machine Learning", "Audio AI", "Visión / OCR", "Backend concurrente"]
+    currently  = ["Liderando QuiasmaPath", "Construyendo WaveNotes", "Explorando agentes de IA"]
+    languages  = {"es": "nativo", "en": "B1 (Cambridge PET)", "de": "intermedio"}
+
+    def philosophy(self):
+        return "Si no se puede medir, no se puede optimizar."
+```
+
+<img src="./assets/divider.svg" width="100%"/>
+
+### `$ ls ./proyectos --destacados`
+
+| | Proyecto | Qué hace | Resultados clave |
+|:-:|---|---|---|
+| 💊 | **QuiasmaPath**<br><sub>Líder de desarrollo · 2025 – hoy</sub> | Simulador farmacocinético web para la enseñanza de farmacología. Arquitectura de 3 capas, backend propio en Python/JS. | ~1 s de cálculo por fármaco · ~200 estudiantes simultáneos · carga < 5 s en móviles de gama baja |
+| 🎵 | **WaveNotes**<br><sub>Desarrollador único · 2026 – hoy</sub> | Análisis de canciones con IA: separa pistas instrumentales (Hybrid Transformers) y extrae notas musicales. | Canción de 4 min analizada en < 30 s · 400 ms de Python al frontend |
+| 🧾 | **DeepTicket**<br><sub>Líder de equipo (4 devs) · 2025 – 2026</sub> | App móvil de control de gastos: escaneo de tickets con OCR + KNN y recomendaciones personalizadas. | 96 % de precisión en escaneo · dataset sintético de 20k+ registros · entregas ~1 semana antes |
+
+<img src="./assets/divider.svg" width="100%"/>
+
+### `$ pip list --stack`
+
+**IA / ML**
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,python&theme=dark" />
 </p>
 
----
+**Backend & datos**
+<p>
+  <img src="https://skillicons.dev/icons?i=java,c,postgres,supabase,mysql,mongodb,firebase&theme=dark" />
+</p>
 
-## 🧠 Sobre Mí
-- 🎓 Estudiante de Ingeniería Informática (Generación 2027).
-- 🤖 Formación en Inteligencia Artificial por el **Samsung Innovation Campus** y la **Universidad de Monterrey**.
-- 💻 Entusiasta del entorno Linux y la personalización de flujos de trabajo (Arch/EndeavourOS).
-- 🌍 Enfocado en el desarrollo de software escalable, integraciones de bases de datos y despliegue de modelos de Machine Learning.
+**Frontend, móvil & sistemas**
+<p>
+  <img src="https://skillicons.dev/icons?i=js,react,html,css,androidstudio,linux,git,arduino&theme=dark" />
+</p>
 
-## 🛠️ Stack Tecnológico
+<sub>Además: REST APIs · arquitectura de software · pruebas de rendimiento y concurrencia · despliegue en la nube · Assembly · microcontroladores</sub>
 
-**Inteligencia Artificial y Datos:**
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+<img src="./assets/divider.svg" width="100%"/>
 
-**Lenguajes de Programación:**
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![SQL](https://img.shields.io/badge/sql-%23003B57.svg?style=flat&logo=postgresql&logoColor=white)
+### `$ git log --reconocimientos`
 
-**Backend, Cloud y Bases de Datos:**
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=flat&logo=firebase&logoColor=ffcd34) ![PostgreSQL](https://img.shields.io/badge/postgresql-4169e1?style=flat&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white)
+```diff
++ 🏅 Mención Honorífica — Incubadora de Proyectos Digitales (IPD) · AMFEM 2026
++ 🐧 Instructor del taller "Linux" — FLISOL · IEEE CS 2026
++ 🚀 Proyecto representante de Veracruz — Samsung Innovation Campus 2025-2026
++ 🎓 Samsung Innovation Campus: Inteligencia Artificial · Liderazgo (UDEM / Ceneval)
+```
 
-## 🚀 Proyectos Destacados
-
-*   **DeepTicket:** Aplicación móvil para el seguimiento de gastos. Integración de visión por computadora mediante OCR para la detección de recibos y sistemas de recomendación personalizados. *(Lead Developer)*
-*   **QuiasmaPath:** Simulador web full-stack para educación en farmacología médica, construido con Python, React.js, Supabase y Firebase. *(Lead Developer)*
-*   **Modelos de Inversión de Curvas H/V:** Modelos de deep learning desarrollados en PyTorch para la inversión de curvas de relación espectral utilizando modelos de velocidad de dos capas (Centro de Estudios Sísmicos, UV).
-*   **WaveNotes:** Aplicación web basada en IA diseñada para la separación de pistas de audio y la extracción de notas musicales.
-
-## 🏆 Reconocimientos y Participaciones
-- **Mención Honorífica** - Incubadora de Proyectos Digitales AMFEM 2026.
-- **Instructor** - Taller de Linux en FLISOL IEEE CS 2026.
-
----
 <div align="center">
-  <!-- Aquí puedes reemplazar "tu-usuario" por tu username real de GitHub para activar las estadísticas dinámicas -->
-  <img src="https://github-readme-stats.vercel.app/api?username=tu-usuario&show_icons=true&theme=radical&hide_border=true" alt="Estadísticas de GitHub" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tu-usuario&layout=compact&theme=radical&hide_border=true" alt="Lenguajes Top" />
+<img src="./assets/divider.svg" width="100%"/>
+<sub><code>while(alive) { learn(); build(); ship(); }</code></sub>
 </div>
