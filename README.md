@@ -34,6 +34,7 @@ class JoseCamacho:
 | 💊 | **QuiasmaPath**<br><sub>Líder de desarrollo · 2025 – hoy</sub> | Simulador farmacocinético web para la enseñanza de farmacología. Arquitectura de 3 capas con backend propio de cálculo concurrente.<br><br>`Python` `JavaScript` `React` `Supabase` `PostgreSQL` `Firebase` | ~1 s de cálculo por fármaco · ~200 estudiantes simultáneos · carga < 5 s en móviles de gama baja |
 | 🎵 | **[WaveNotes](https://github.com/ElCamacho05/WaveNotes)**<br><sub>Desarrollador único · 2026 – hoy</sub> | Análisis de canciones con IA: separa instrumentos con Demucs (Hybrid Transformer) y extrae notas por instrumento (pitch tracking, onsets, chroma). Microservicio de IA + web app Java, ambos en contenedores.<br><br>`PyTorch` `Demucs` `librosa` `FastAPI` `Java Servlets/JSP` `Tomcat` `Maven` `Firebase` `Docker` | Canción de 4 min analizada en < 30 s · 400 ms de Python al frontend |
 | 🧾 | **[DeepTicket](https://github.com/ElCamacho05/DeepTicket)**<br><sub>Líder de equipo (4 devs) · 2025 – 2026</sub> | App Android de control de gastos: escanea tickets con OCR, normaliza productos con fuzzy matching y recomienda con KNN desde una API propia.<br><br>`Kotlin` `Jetpack Compose` `CameraX` `ML Kit` `Hugging Face (Donut)` `scikit-learn` `FastAPI` `Supabase` `Ktor` | 96 % de precisión en escaneo · dataset sintético de 20k+ registros · entregas ~1 semana antes |
+| 👶 | **[BabyGuard Pro](https://github.com/denissexocuis/BabyGuard-Pro)**<br><sub>Contribuidor principal · equipo de 4 · 2026</sub> | Monitor de bebé IoT con visión por computadora: cámara ESP32 transmite a un servidor en Raspberry Pi que detecta riesgos en tiempo real y alerta por Telegram. Desarrollé el motor de IA.<br><br>`Python` `OpenCV` `MediaPipe` `Flask` `MQTT (Mosquitto)` `Node-RED` `MySQL` `ESP32 (C++)` `Raspberry Pi` `Docker Compose` | Detección de bebé boca abajo y rostro cubierto (Pose + Face Mesh) · detección de llanto por energía de audio (RMS) · 4 contenedores orquestados · alertas en Telegram + dashboard |
 
 ### `$ ls ./proyectos --todos`
 
@@ -60,10 +61,10 @@ class JoseCamacho:
 
 **Frontend, móvil & sistemas**
 <p>
-  <img src="https://skillicons.dev/icons?i=js,react,html,css,kotlin,androidstudio,docker,linux,git,arduino&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=js,react,html,css,kotlin,androidstudio,docker,linux,raspberrypi,arduino,git&theme=dark" />
 </p>
 
-<sub>Además: Hugging Face Transformers · Demucs · librosa · Jetpack Compose · OpenGL · REST APIs · arquitectura de software · pruebas de concurrencia · despliegue en la nube · Assembly · microcontroladores</sub>
+<sub>Además: OpenCV · MediaPipe · Hugging Face Transformers · Demucs · librosa · MQTT · Node-RED · Jetpack Compose · OpenGL · REST APIs · arquitectura de software · pruebas de concurrencia · despliegue en la nube · Assembly · microcontroladores</sub>
 
 <img src="./assets/divider.svg" width="100%"/>
 
